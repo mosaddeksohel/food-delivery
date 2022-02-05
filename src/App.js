@@ -1,5 +1,5 @@
 import './App.css';
-import Poster from './components/HomePage/Poster/Poster';
+import Home from './components/HomePage/Home';
 import Navigation from './components/Shared/Navigation/Navigation';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
 
       <Navigation />
-      <Poster></Poster>
+      <Home />
     </div>
   );
 }
