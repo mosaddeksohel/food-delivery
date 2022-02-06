@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React from 'react';
 import { useForm } from "react-hook-form";
 import './AddData.css'
@@ -7,6 +8,7 @@ const AddData = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
         console.log(data)
+        axios.post()
     };
     return (
         <div className='add-data'>
