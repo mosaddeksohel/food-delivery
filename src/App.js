@@ -1,11 +1,11 @@
 import './App.css';
-import AddData from './components/AddData/AddData';
+import Products from './components/Products/Products';
 
 function App() {
   return (
     <div className="App">
 
-      <AddData />
+      <Products></Products>
     </div>
   );
 }
